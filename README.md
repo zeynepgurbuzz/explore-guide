@@ -51,4 +51,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://www.g
 
 ---
 
-**Author:** Zeynep Gürbüz
+Author: Zeynep Gürbüz
