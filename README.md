@@ -48,7 +48,6 @@ Since this is a static website, no installation is required.
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
 ---
 
 Author: Zeynep Gürbüz
