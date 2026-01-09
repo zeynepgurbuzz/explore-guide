@@ -1,3 +1,4 @@
+```markdown
 # 🌍 Explore Guide - Travel & Tourism Website
 
 **Explore Guide** is a fully responsive, multi-page travel agency website designed to showcase popular tourist destinations. This project demonstrates modern front-end web design skills using semantic HTML, advanced CSS, and interactive JavaScript.
