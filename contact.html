@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Guide | Tours</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<header class="navbar">
+    <div class="brand-name">
+        <a href="index.html">Explore Guide</a>
+    </div>
+    <i class="fa fa-bars hamburger-icon" onclick="toggleMenu()"></i>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="hamburger-menu" id="hamburgerMenu">
+        <i class="fa fa-times close-icon" onclick="toggleMenu()"></i>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</header>
+
+        <!-- Contact Section -->
+        <section class="contact-header">
+            <div class="contact-header-content">
+                <div class="text-background">
+                    <h1>Get in Touch</h1>
+                    <p>We’d love to hear from you! Reach out for any questions or travel plans.</p>
+                </div>
+            </div>
+        </section>        
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> Address:Taksim Meydanı, Istanbul</li>
+                        <li><i class="fa fa-phone"></i> Phone: +90 555 123 4567</li>
+                        <li><i class="fa fa-envelope"></i> Email: info@exploreguide.com</li>
+                    </ul>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12093.492542758682!2d28.978358016386285!3d41.00823796014917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9818f347993%3A0x8b8e6b7f1f32b70a!2sTaksim%20Meydan%C4%B1!5e0!3m2!1str!2str!4v1615799123958!5m2!1str!2str"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form action="submit-form.php" method="POST">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Explore Guide</h3>
+                <p>Your trusted travel partner <br> for unforgettable journeys.</p>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Explore Guide. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+      <!-- External JavaScript file -->
+      <script src="script.js"></script>
+</body>
+</html>
