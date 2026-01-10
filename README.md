@@ -3,7 +3,7 @@
 **Explore Guide** is a fully responsive, multi-page travel agency website designed to showcase popular tourist destinations. This project demonstrates modern front-end web design skills using semantic HTML, advanced CSS, and interactive JavaScript.
 
 ## 🚀 Live Demo
-[Click here to visit the website](https://zeynepgurbuzz.github.io/explore-guide/))
+[Click here to visit the website](https://zeynepgurbuzz.github.io/explore-guide/)
 
 ## ✨ Key Features
 
